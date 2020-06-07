@@ -1,0 +1,7 @@
+# imágenes
+*.jpg
+*.png
+
+# preprocesador css
+*.config
+*.scss
