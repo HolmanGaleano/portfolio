@@ -397,7 +397,7 @@ header {
 }
 
 .post-overlay {
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.8);
   position: absolute;
   left: 0;
   right: 0;
@@ -421,6 +421,14 @@ header {
   font-weight: bold;
   text-align: center;
   display: inline-block;
+}
+
+.header {
+  color: #05B6D3;
+}
+
+.header h2, .header h3, .header h4 {
+  font-weight: 600;
 }
 
 @media screen and (max-width: 768px) {
