@@ -343,14 +343,13 @@ template {
 }
 
 .container {
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
   display: grid;
   grid-template-columns: repeat(auto-fill, 300px);
-  gap: 5px;
+  gap: 10px;
   justify-content: center;
-}
-
-header {
-  height: 70px;
 }
 
 .item {
@@ -428,11 +427,12 @@ header {
 }
 
 .header h2, .header h3, .header h4 {
+  margin-bottom: 0;
   font-weight: 600;
 }
 
-@media screen and (max-width: 768px) {
-  .post-list {
-    gap: 3px;
+@media (min-width: 768px) {
+  .header {
+    max-height: 70px;
   }
 }
