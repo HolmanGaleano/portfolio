@@ -14,6 +14,7 @@ html {
   /* 1 */
   -webkit-text-size-adjust: 100%;
   /* 2 */
+  scroll-behavior: smooth;
 }
 
 /* Sections
@@ -429,6 +430,52 @@ template {
 .header h2, .header h3, .header h4 {
   margin-bottom: 0;
   font-weight: 600;
+}
+
+#btn-mas {
+  display: none;
+}
+
+.containerss {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.redes a, .bla {
+  display: block;
+  text-decoration: none;
+  background-color: #0086AF;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  text-align: center;
+  border-radius: 50%;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.4);
+  transition: all 500ms ease;
+  cursor: pointer;
+}
+
+.bla i {
+  color: #D4FCF5;
+  line-height: 55px;
+}
+
+.redes a:hover {
+  background-color: #05B6D3;
+  color: #0086AF;
+}
+
+.redes a {
+  margin-bottom: 15px;
+  opacity: 0;
+  visibility: hidden;
+}
+
+#btn-mas:checked ~ .redes a {
+  margin-bottom: 10px;
+  opacity: 1;
+  visibility: visible;
 }
 
 @media (min-width: 768px) {
