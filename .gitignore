@@ -5,3 +5,7 @@
 # preprocesador css
 *.config
 *.scss
+*.pug
+
+# carpetas
+/components
