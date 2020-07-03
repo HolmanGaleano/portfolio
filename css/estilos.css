@@ -523,6 +523,30 @@ template {
   height: 100%;
 }
 
+.verproyecto {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.verproyecto a {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  display: inline-block;
+  text-decoration: none;
+  background-color: #06A2BC;
+  padding: 20px 35px;
+  color: #fff;
+  border-radius: 50px;
+  transition: all 0.4s;
+}
+
+.verproyecto a:hover {
+  background: #A4FCF1;
+  color: #0086AF;
+}
+
 @media (min-width: 1080px) {
   .contentpro {
     max-width: 1024px;
